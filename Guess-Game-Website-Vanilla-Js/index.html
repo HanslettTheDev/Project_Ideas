@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Game - Site</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="normalise.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Guess A Number Game</h1>
+        <p>Can You Guess The Computers's Number!!!</p>
+    </header>
+    <div id="guess-container">
+        <div class="elements">
+        <input type="number" id="guess-box" name="guess-box" placeholder="Tell Me Your Guess"><br>
+        <button class="btn btn-lg btn-success" type="submit" id="guess-button">Guess</button>
+        <button class="btn btn-lg btn-light" type="submit" id="restart">Restart</button>
+    </div>
+    <div id="errorMessages"></div>
+    <div id="history">
+        <h3>Guess History</h3>
+        <div id="historybox"></div>
+    </div>
+</div>
+<hr>
+<section id="footer">
+    <p>Developed by: <strong>@HanslettTheDev</strong></p>
+</section>
+<hr>
+    
+    <!-- Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

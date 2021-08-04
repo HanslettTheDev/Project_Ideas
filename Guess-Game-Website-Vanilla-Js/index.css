@@ -1,0 +1,65 @@
+
+body {
+	background-image: linear-gradient(360deg,#dddddd,#f8f3eb)
+}
+
+input {
+	border-radius: 1.5rem;
+	padding: 2%;
+	width: 70%;
+	text-align: center;
+	outline: none;
+}
+
+input::placeholder {
+	color: black;
+	font-weight: 500;
+	font-style: italic;
+}
+
+button {
+	margin-top: 5%;
+}
+
+h3 {
+	margin-top: 1rem;
+}
+
+header {
+	text-align: center;
+	color: green;
+}
+
+#guess-button {
+	margin-right: 5%;
+}
+
+#guess-container {
+    text-align: center;
+    margin: 5em auto;
+    width: 50%;
+}
+
+#historybox {
+	width: 80%;
+	height: 300px;
+	border: 1px solid;
+	margin-left: 10%;
+	overflow-y: auto;
+}
+
+#footer {
+	text-align: center;
+	bottom: 0;
+}
+
+.elements {
+	margin-top: 2rem;
+}
+
+.alert {
+	width: 50%;
+	text-align: center;
+	margin-left: 25%;
+	margin-top: 5%;
+}

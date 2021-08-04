@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.chores-form {
+    text-align: center;
+    padding: 2%;
+}
+
+.chores-table {
+    margin-top: 5%;
+}
+
+.input {
+    border-radius: 0.5rem;
+    width: 200px;
+}

@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f1f1f1;
+}
+
+h1 {
+    color: darkslateblue;
+    margin-top: 20%;
+    padding: 1rem;
+}
+
+body {
+    text-align: center;
+}
+
+.input1 {
+    width: 50%;
+    padding: 1rem;
+    border: 1px solid darkslateblue;
+    border-radius: 0.5rem;
+    outline: none;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.btn {
+    width: 20%;
+    padding: 1rem;
+    margin-top: 5%;
+    margin-left: 20px;
+    border-radius: 0.5rem;
+    border: 0.5px solid;
+    background-color: rgb(255, 198, 11);
+    outline: thick;
+    cursor: pointer;
+}
+
+.btn2 {
+    background-color: rgb(105, 161, 105);
+}
+
+#message {
+    margin-top: 5%;
+    border: 1px solid blue;
+    padding: 1rem;
+}
