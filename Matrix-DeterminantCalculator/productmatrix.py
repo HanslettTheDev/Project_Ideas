@@ -1,6 +1,7 @@
 """
 this program is used to calculate the product of a matrix by 
 multiplying the rows by the column and getting the determinant and finding values of x
+i know there is an easier way but i started from somewhere lol i wanted it to work with no modules
 """
 col1 = (1,1,3)
 col2 = (4,5,-2)
